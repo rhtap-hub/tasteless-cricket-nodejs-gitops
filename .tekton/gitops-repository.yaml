@@ -1,0 +1,6 @@
+apiVersion: "pipelinesascode.tekton.dev/v1alpha1"
+kind: Repository
+metadata:
+  name: tasteless-cricket-nodejs-gitops-repository
+spec:
+  url: https://github.com/rhtap-hub/tasteless-cricket-nodejs-gitops
